@@ -24,8 +24,11 @@ async def chat(req: ChatRequest):
     prompt = SYSTEM_PROMPT_TEMPLATE.format(context_str=context_str, message=req.message)
 
     try:
-        response = client.generate_content(prompt)
-        
+        response = client.models.generate_content(
+            model=GEMINI_MODEL,
+            contents=prompt
+        )
         return {"reply": response.text}
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
+
