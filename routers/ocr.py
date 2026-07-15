@@ -91,10 +91,8 @@ async def extract_deed(file: UploadFile = File(...)):
 
         # 3. Send anonymized text to Gemini
         prompt = EXTRACT_PROMPT.format(deed_text=anonymized_text)
-        response = client.models.generate_content(
-            model=GEMINI_MODEL,
-            contents=prompt
-        )
+        response = client.generate_content(prompt)
+       
         text = response.text.strip().strip("```json").strip("```").strip()
         parsed = json.loads(text)
 
