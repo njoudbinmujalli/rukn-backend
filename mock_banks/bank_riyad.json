@@ -1,0 +1,36 @@
+{
+  "bank": "RIYAD_BANK",
+  "displayName": "بنك الرياض",
+  "customers": [
+    {
+      "national_id": "1082345678",
+      "data": {
+        "accounts": [
+          {
+            "number": "SA5620000003008010167850",
+            "type": "INVESTMENT",
+            "balance": "92750.00",
+            "currency_code": "SAR"
+          }
+        ],
+        "outstanding_liabilities": [
+          {"type": "CREDIT_CARD", "amount": "8600.00"}
+        ]
+      }
+    },
+    {
+      "national_id": "1099001122",
+      "data": {
+        "accounts": [
+          {
+            "number": "SA5620000003008010199999",
+            "type": "CURRENT",
+            "balance": "11200.00",
+            "currency_code": "SAR"
+          }
+        ],
+        "outstanding_liabilities": []
+      }
+    }
+  ]
+}

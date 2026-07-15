@@ -1,0 +1,38 @@
+{
+  "responseStatus": "OK",
+  "institution": {
+    "code": "SNB",
+    "nameAr": "البنك الأهلي السعودي"
+  },
+  "customers": [
+    {
+      "idNumber": "1082345678",
+      "accountDetails": [
+        {
+          "iban": "SA8410000001200987654321",
+          "productType": "CURRENT_ACCOUNT",
+          "availableBalance": {"amount": 55200, "currency": "SAR"}
+        },
+        {
+          "iban": "SA8410000001200987654322",
+          "productType": "INVESTMENT_ACCOUNT",
+          "availableBalance": {"amount": 92750, "currency": "SAR"}
+        }
+      ],
+      "obligations": [
+        {"obligationType": "AUTO_LOAN", "remainingAmount": {"amount": 145000, "currency": "SAR"}}
+      ]
+    },
+    {
+      "idNumber": "1088223344",
+      "accountDetails": [
+        {
+          "iban": "SA8410000001200900011122",
+          "productType": "SAVINGS_ACCOUNT",
+          "availableBalance": {"amount": 76400, "currency": "SAR"}
+        }
+      ],
+      "obligations": []
+    }
+  ]
+}

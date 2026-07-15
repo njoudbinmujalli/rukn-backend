@@ -1,0 +1,42 @@
+{
+  "bank_code": "RAJHI",
+  "bank_name_ar": "مصرف الراجحي",
+  "customers": [
+    {
+      "customer_national_id": "1082345678",
+      "accounts": [
+        {
+          "account_number": "SA0380000000608010167519",
+          "account_type": "CURRENT",
+          "balance_sar": 245000.00,
+          "status": "ACTIVE"
+        },
+        {
+          "account_number": "SA0380000000608010167520",
+          "account_type": "SAVINGS",
+          "balance_sar": 88750.50,
+          "status": "ACTIVE"
+        }
+      ],
+      "loans": [
+        {
+          "loan_id": "RJ-LOAN-2291",
+          "loan_type": "PERSONAL",
+          "outstanding_balance_sar": 120000.00
+        }
+      ]
+    },
+    {
+      "customer_national_id": "1099001122",
+      "accounts": [
+        {
+          "account_number": "SA0380000000608010199001",
+          "account_type": "CURRENT",
+          "balance_sar": 52300.00,
+          "status": "ACTIVE"
+        }
+      ],
+      "loans": []
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "bankId": "ALINMA",
+  "bankNameAr": "مصرف الإنماء",
+  "customers": [
+    {
+      "nationalId": "1082345678",
+      "accountList": [
+        {
+          "accNo": "SA4405000068201234567891",
+          "accType": "جاري",
+          "currentBalance": 245000,
+          "ccy": "SAR"
+        },
+        {
+          "accNo": "SA4405000068201234567892",
+          "accType": "ادخار",
+          "currentBalance": 180500,
+          "ccy": "SAR"
+        }
+      ],
+      "liabilities": {
+        "creditCards": [
+          {"cardLast4": "4471", "outstanding": 15300}
+        ],
+        "financing": []
+      }
+    },
+    {
+      "nationalId": "1077112233",
+      "accountList": [
+        {
+          "accNo": "SA4405000068201234500001",
+          "accType": "جاري",
+          "currentBalance": 18900,
+          "ccy": "SAR"
+        }
+      ],
+      "liabilities": {
+        "creditCards": [],
+        "financing": [
+          {"contractNo": "FN-9012", "outstanding": 30500}
+        ]
+      }
+    }
+  ]
+}
